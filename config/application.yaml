@@ -1,0 +1,43 @@
+db:
+  dbms: mysql
+  port: 3306
+  url: jdbc:mysql://${db.host}:${db.port}/${db.name}?characterEncoding=UTF-8&serverTimezone=Asia/Seoul
+
+spring:
+  cloud:
+    config:
+      allow-override: true
+  jpa:
+    database: ${db.dbms}
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    hibernate:
+      ddl-auto: ${sql.ddl-auto}
+    show-sql: ${sql.show}
+  datasource:
+    dbms: ${db.dbms}
+    host: ${db.host}
+    username: ${db.username}
+    password: ${db.password}
+    database: ${db.name}
+    port: ${db.port}
+    url: ${db.url}
+    showSql: ${sql.show}
+    formatSql: ${sql.format}
+    highlightSql: ${sql.format}
+    ddlAuto: ${sql.ddl-auto}
+    poolSize: ${db.pool-size}
+
+# lagacy =============================================================
+# 실제로 사용되지 않거나 다른 서버와 다른 경로를 사용하는 레거시, 추후 삭제 혹은 수정 필요함
+
+# application에서 사용됨
+user:
+  host: ${service.user.host}
+
+# schedule, application, feed에서 사용됨
+swagger:
+  docs:
+    path: /docs
+  ui:
+    path: /swagger-ui
+# ====================================================================

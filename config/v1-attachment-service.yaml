@@ -1,0 +1,31 @@
+multipart:
+  file:
+    size: 10MB
+  request:
+    size: 10MB
+
+s3:
+  access: '{cipher}AQCbK4xjn4G2hShfGWQ+6AdmTnjA458lpJDn0kBs1yXf44RH2jBDuVlryRSdstUa+USIRdyok7rrpnAeUAHQoV/9yS9ihchzL7gF8pTQMoMwGM0KKh06zcy0p/2rhw742phaUos//KK0XUk5Y04UuXY8PzAGt3Eko7hFtVmWNl7HEXff1R5+Mr34Hm4YS8n3T23445REw+NJ7+zDd/aUbUmHRTMVScLAXHKrzej6Sc5srAUCoRkO60viITrBXd5pQoPOJ7mlDbcPiV8kDiJz5SEaFoX9fBVWQqZnj+H7Z9bd6bx9J9aNLPx0b8qyX9VfNcpi11BjybejsRxJkTI75d/A79Fl92Bq/PgcI4GfdTJVpjmDZERX7C5dQaIEIWmiFFv1UFDCNkRtkva/+6Mv4AWX'
+  secret: '{cipher}AQAGUtj4pJLePxXckTALczZTFBrTncrl12smjQ0fQ6fDJAbA1u1/z7647MqEN9VV+uCBZhnoGLlT9+gW1X6zVw14ns1+qjQaSWsDBSeRKP80t42Hu3gxr0qZbwehMqek2EtSdsRaAkB0TelIxs3QI/hOidnlifMRTFrIs3mC5Qz8xHTTkjS54AZbNPbHtQGzD7bZwrFUz9t7Qu35TPF8tjcV0w3kZWUaLA0glJZa5fsb+HLYui+bogsa/hTrc4v5FJKpDgMxwWToam9Hm3jHu9yJ1QbQlijJDr7lemtVfrG89r+C4hzbQO+1k18qVHskYkC/Msfc8UBkFN1zu9Xte2qlXhmfjHDULTXGEO03UP98FUkJgIf2Isx4qm3LY+6LfObCqOFsFUas05JkRsvgnFC8IeE2z+MYo1eQ6RCoR8ED5w=='
+  region: ap-northeast-2
+
+---
+
+spring:
+  profiles: prod
+s3:
+  bucket: xquare-prod-bucket
+
+---
+
+spring:
+  profiles: stag
+s3:
+  bucket: xquare-stag-bucket
+
+---
+
+spring:
+  profiles: dev
+s3:
+  bucket: xquare-stag-bucket

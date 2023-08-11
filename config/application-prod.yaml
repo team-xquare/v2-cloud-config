@@ -1,0 +1,35 @@
+db:
+  name-prefix: prod_
+  host: '{cipher}AQCQuB2UJTvkuOr4ZEJoJmwK3EZVR+k/zwfbEgvDIYV/lwpAgqRqe83kpZ/Lhdo750D8/n9L4e32LscFJRQ4LiCLinip5aBgjwtJms5vvIpfFHczjd/0zXqJexJ3dsQsxpbxKNoqNKEuzHvA+xmEMKZ39VJCSAV89e9oLHhjznnc9TVIR6C0C4N4puf8JY3Ny+wMXLoGszbpB6xPKTuHD16jEGk3v0bBrh2ZovhPDqfTi8oDqaBzfyeUvRzgDanytuKKUlxU9mXWghQ3NT+JujxKkTGqn5qqLQ6VVGMYVvGH5zIL3Gtcd764iNtY0NGAAx2AnheGvfoGbZl/Yu3lkP6yhQX7Aq3EaxW3ZXshOcNDwCwpmlSUqSOHGh6lNaCyOWynfscMeQW1Q8OYxLffuU4CQwXbH3ziVNE/fxwrdIjYjVLyiUhqZHpVN9ogV1yprBc='
+  username: '{cipher}AQCvDZUEzQ2MVvG5pAObu967fDFQdpPCiw0v6BCI6vZuABsjQojFr9RKVjqncQHntXYPe/1v4ocWrt8J3Pi8teHRSA4QSGlyLY9wZrHlva77fBTA6HY+p5ogEfw6fFv3LKJIAcFE6/JwFVxJKwDzVo+QC29LSWQGhAYAIbaUHpHCqGqo34iUb4zEhGf9cbIqTvYyIcopkCTWnaK0iCK8kF5A1e/OGMUPCJUY0K28/sFxYEBoGwYxP3mlj407XvsbsV2CiAe/fi1bwNSornXznlQ+b61N0xiIQbJPsD9ODE0WpsohG3AXUr8QY90oJ7MJyyFaf+YvlgID/R8C1w8Ej10kMRaknwlANaaHLYrhgYU/V7XbSVW/UxNWo1EiCBdNts4='
+  password: '{cipher}AQBfmEGTLiGwedTE4Td/R9d7GgK4D0c5uRFGbVc+TDVR8hM+5jALt4P3AsgRU5zlCXLBuvw3anpGbTaEkKCqLh6h+ceCjDqRk4n5R+sJoK5G7AIjp8kVclzCfWbuo7k9tFsvTLucxpQBbU8+kqa7erm7/4xgRxhwpNw1vQ0DbmPqKVXAHqDpDRUb7mHp1mHimrYi94T3PLGVNwOruhnFNC22ZtCenmdRMaorQSuzs+on4jWRgFtIhK6373w9UMYwYHGkOs7mobHetM1o6mYxnsNXk1K/yS3WrQt38q8LrIIvPjbAx6x1wKdSmonqLRTEXFOfj+FBN3PQ7bietlx5cO0ub20THy8iV+Nfn0Db/pe//NpbbsMqsc93eQCWaszYr1U='
+  pool-size: 10
+
+sql:
+  show: false
+  format: false
+  ddl-auto: update
+
+spring:
+  jpa:
+    generate-ddl: true
+  redis:
+    host: redis.redis.svc.cluster.local
+    port: 6379
+
+service:
+  scheme: http
+  application:
+    host: application-be-prod.xquare-prod.svc.cluster.local
+  authority:
+    host: authority-be-prod.xquare-prod.svc.cluster.local
+  point:
+    host: point-be-prod.xquare-prod.svc.cluster.local
+  user:
+    host: user-be-prod.xquare-prod.svc.cluster.local
+  timetable:
+    host: timetable-be-prod.xquare-prod.svc.cluster.local
+  schedule:
+    host: schedule-be-prod.xquare-prod.svc.cluster.local
+  git:
+    host: git-be-prod.xquare-prod.svc.cluster.local

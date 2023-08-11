@@ -1,0 +1,10 @@
+db:
+  name: '${db.name-prefix}timetable'
+
+neis:
+  url: https://open.neis.go.kr/hub
+  key: '{cipher}AQA+ywIOq0CCO/C1+KXd+MysKlpQWhAgEDY+uUA+LT6AG03rH4nOm0iMfoo4Tbds1tuur/LDK8GtXykAWwyD9A5iuoYQE+/VDBSPdLsChlYnYiS7CnyMwqI+Qcw+eVQaE/FUE2wi3dYrZA7ffg3nkCqrakUc6AtPru0QQtGW7j+vCHNLsH/QMuebyqTki+etJK/orfKkYgLaKYn+fdRoWa/b0BK8xAt0tXeqR/I37k21YVq14DDTWSLt6tQs7RcmG6/WuLk7U5iHRroFQPsoe0w+BsygzW4SAx+hAfCjRLrF6Lta6r3cl+3vP9FyS4YzkXs53zfP3temTITddgi/jdI+33TMOygleA/mkxbWQ4qlP4s8kvIMevoge51zIIMSMHLGmnjYBgSsz6wVW0lmAIOn4AU9AHqoCUUkJROURYz7rA=='
+  type: json
+  size: 1000
+  region: G10
+  school: 7430310

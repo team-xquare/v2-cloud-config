@@ -1,0 +1,16 @@
+db:
+  name: '${db.name-prefix}application'
+
+# SQS
+cloud:
+  aws:
+    region:
+      static: ap-northeast-2
+    stack:
+      auto: false
+    credentials:
+      access-key: '{cipher}AQBHOuEkT/ApMik45O9WzX0vgPyY6hUqOvoB3kJoz/DAXG5Q3GdHRaex0q8TT17kvm8v8XLjVVqb1e5h5QBpbjg0LHIShUrRmVhA9+Hk6ctum6HnThq2Ul7LLz7w3aIUUxhuD4GQWylas+KYPRidL8y26T0krn/bfyXBvsNmsFTv8fnMc118XHv8YI32JRM6Z8XeRHiKlCl1lEysPmMyaCYDGtJAGPwse0wa1Ua7X3xgo/bAgj8LticmCh12WXIyDKCpjUVsuOXKE0M+1o0ws9he8SBPwCUuV4nf5a75hm2w6A0xMvhBsH4H6AM9NopzFncOCo2Yu04Wj7CG4jzLqIdHlwLNu7SxIdDWakt0081HANaR+NpOifQJJZ9QQfoBsVvYwyo2Pmxr1beRNVmBwgCw'
+      secret-key: '{cipher}AQC9VmlXaBmLpWUmz/4kOZAb4BgQrNiGCFRaAyQ94Y8GUp4YNkIv+HLz8RHiDDcbM+UreTZmRJnvBQVbi/TICiNmVaWg8asqvaWBDAFzH28v/xY72BoHjhzptLPOxAbK9wm2o0i8cf+iDpCzrpHzT+ZXrOYVRQQFdBViSisYGgc2mYY9nxJJMmwViYllQeCMW1m+PLaaOl2m2nce8vg7ND/j3kpnkGnrnwC83oMGIoMY9ja+WMFHgRHbsyoTVx7axsmUaGCpnBhx+gcBbFMC0E0iVFIbDgjs7WAzSfEtKsyRmhmuckCznu0yqT15N0jRbNb1pXSzoyPKqUIyBlcWAgMc8pU+f3SQRNnN1ifh4hWtxlkNXItIfu1If1r46wu0eTKqdRyVfozd3T7RNj7DeTT7BCMtQPCRpJTZcGLSLl24sQ=='
+
+sentry:
+  dsn: '{cipher}AQB7QqOsSk4/LfIA70fIBxGpHftpEp2+yVPxDVp9qSxGKdtMRi0PnEVJQbaVCI4Cy91zMhyfI4TBuAbpVagS1jE0+XJrnNdMMokRmOAyZzTwLgw2cTw/iDiwPhiZCh9NaFgCkwe0N+ctLNnM470fjPeKLOpd+O55SRvrBqIGzkpX43+Rah1K8N2ObodeGxZ/F325kUphPQQFAdHWYRwezkV+MSZrTmjIB5TicMAsRWNNaf1+1ahaWMC6vAuwWgGN+DnH2rKThdPnqDwY6doMZ++3FrNT3lQIjsg1+dSgIe2vBRU2m+LSvgjFcbjs6mGFjkOcGFFjJTWTTIo5g9AdYMVxEQCEKjLuxTBuKqa8ZsTh+wmg97PsOvigWH1eci9K7xqx6jY09dmf/mPab5nmJlVU4yG8wCfUxXF6flcx6AVsWEF+FI48FiZ/6LKWXpHTUapovfGlGLoIyxCNnwzyEU2J'

@@ -1,0 +1,13 @@
+db:
+  name: '${db.name-prefix}feed'
+
+# SQS
+cloud:
+  aws:
+    region:
+      static: ap-northeast-2
+    stack:
+      auto: false
+    credentials:
+      access-key: '{cipher}AQBOHyMl/SFErHA4VSJ1rzxpYN5k+wx15EJd4vKJfKQ85NHEL/jGuYfNWdndPWbFWmAUmSqDqlEV3QOQ4l0PtBmRBmLuOKYZQKkNmF9q13L8WhjdQ8TUWA8UeL04cLg+3v31GPnEKWV3ZkQv+xzke1jPt4DpYXbv4owztjE+PBhn2klMjGCGq1Nx0fyo5UHVTfLjLSBa9URQG3wuzliSpHW5ziv3SbsBmquQIx50UPSvDF3ntWeYg0BYhQ+ngL/muNe4imS1QjR6EjTZ2EaAMAz7J9VBXAOLAuGKLIp+rltymbe5MhN9MzvLSb6WK4Hiz7aVJfplwW1tdMRmk9Ys9hK1Otl6d1T851mOaDrAkEo9Ao/N/rr+RpIFFXWez2ojS6+7ZnuxYMEUQaP4AH9XjIWY'
+      secret-key: '{cipher}AQC9VmlXaBmLpWUmz/4kOZAb4BgQrNiGCFRaAyQ94Y8GUp4YNkIv+HLz8RHiDDcbM+UreTZmRJnvBQVbi/TICiNmVaWg8asqvaWBDAFzH28v/xY72BoHjhzptLPOxAbK9wm2o0i8cf+iDpCzrpHzT+ZXrOYVRQQFdBViSisYGgc2mYY9nxJJMmwViYllQeCMW1m+PLaaOl2m2nce8vg7ND/j3kpnkGnrnwC83oMGIoMY9ja+WMFHgRHbsyoTVx7axsmUaGCpnBhx+gcBbFMC0E0iVFIbDgjs7WAzSfEtKsyRmhmuckCznu0yqT15N0jRbNb1pXSzoyPKqUIyBlcWAgMc8pU+f3SQRNnN1ifh4hWtxlkNXItIfu1If1r46wu0eTKqdRyVfozd3T7RNj7DeTT7BCMtQPCRpJTZcGLSLl24sQ=='

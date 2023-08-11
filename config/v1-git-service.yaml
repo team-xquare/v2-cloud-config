@@ -1,0 +1,7 @@
+db:
+  name: '${db.name-prefix}git'
+    
+auth:
+  github:
+    client-id: '{cipher}AQAqDBMAosdDAky6sCpe5DnQgzoB5ijgGfcUiVKor3H0RzbS0LEgTx3aNpgCx3U3dkRQAGXtHU+7Qh2kvDUZTherMzGc0ShUjnQAE3y88jYzWF7iDFNJMTk/Zj89F8KJ6olihtKRXzMoMP0WS9OaLT8DQ4q5BjFV+5wiEOCmzGMpoHCvoGmBjdPIcCIvmnRQ1ttenJC1Uttmajxm+R/ecTKNuktXo9k884eo3PLxQnMCWouKhspnq2mPvhmD0DCc6QHVpvabMYiMgHCWcv1VBjhqd5Yvo3c/l/tL/zwWjnSn7+x2PaR77FXXnZGirqLaeYLYEwomJK9P7w1JVOuyl8oYaNkwV9ghl8LHEXzINkcDeLl+000755ZaQZTDfpstFLQzH/bRo7nBgRi2TzunH6NB'
+    client-secret: '{cipher}AQCRCKu/22M1hdSXqDneJ95ADoyALsSCxKJ2YLj4EiUYnPYybovbmJO9p6MA+wKJI+YB0YknQbJps5g6QWFfaXg4xEduWv4G3EqpmG26LkLySwMggewgo5aQMCJ6wPMv/z5/sZFYvf+UrrsETbV1N3Y/ZZ5j5d8Tue5YsAQ45zjthz060E5nBY8lZGZ9Qgz9WFZIZx7CIPjvB9eo7WS8/C3R+8aDTK8K1lcWHgklIpk5l81Mlsj5ZHWS9M/XaEcz740+nleFDXp8rf/xSHJXpTOzewp7wpEFKVkwc7FXxMhzt4kGlnu4hynEaRxNhSpN0zuFOCKzHoxroviMPHww+QNTR6G6sLn+GdrhI/hx9x9EkeiTE6HL4+Ny7dhinyvt72DrQRNwCyurPHoDDTi5/TTcqZkdTIIWxd58nAZElblf7Q=='

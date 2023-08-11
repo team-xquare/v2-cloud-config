@@ -1,0 +1,35 @@
+db:
+  name-prefix: stag_
+  host: '{cipher}AQCLu9yo7+2Q4u8gUhu9y5m0QsErtXNTsL+xBXI0pXs7Xf3BpPxuaXeuCkaqDomzWPJNEJuhu4Jjqu5oR4NLAxvWFqNElr0FACpb1x9/hacUz4/KO/DOiDbgXyLzkyOmBRvVa1pLPeGvPPARt/O1OLr9sp8ge2MwFe096062ncrsBqwjmpFIuplMkkgwsX70SPySFGggzD0hHqLXofNGBfwTZUTYSmB2vAduAQdUDuPEZaBIDPdDUpxc5YBy0nw3jGkIFGzldKwoPWkgfHfEafayWQN9oLDdqQeBoEe+4XnYHBwud1Ol39P9Wn+gznjymaGCdf+62BsqTZSbljGe9l92c2SNmbIlnWqtiY3VFtrRLmtzHhngoMswfOsRCXNnmZEzf7ad9Hp6iEFJC/M4UtqyMKb5iOdi9hy/96KQJfkGDanIJ6MX023jIYU+SqZEVXY='
+  username: '{cipher}AQA52HR+ZJHyNXZrMGezT3DZ0WKBIHX4iY+ADw3uCI4Okf0+Kv4jsqchATupsH/0+Y5fsI5oPxe2QvQ8GdFzt90/apNxPzdR3VT1dWejJLGFFG7xCCNoeXafspcBu2O7i+OIdG/FxXcBpKZlgVrxeH4Fix/lWxHvCDbSdnSvMmFUfVc3luoV1FMnYyUngcd/c+PVhU06K5tp0XmCh5rwGQVnuLak0k3fcWExY90jiUyXYdyLeehedtvmkqWvMgZBDhLToxTVBK8y8KX6YsCLbFiMt5b3U3sYkBlsYtjW3gaJa8gyxcZLLwaXp6m4nWv3ERCYDSsuyLhnBV8lM3K2UyNnvlcIYR9RojSlqpxg3/q7G6ZXuplZFuwnHYip+OcCxtE='
+  password: '{cipher}AQCsymBS7aQmGkl78BPQuYwG/E4B+Igak/uWxbOyWmV/Ln28eDeGOPs+naIKPGxxLjvvz2A+e9Pd1SvJy0Sk6sqsufGo8JsyOwGnKku7HZwhxMQMmrv1IgNmHEODP4ysGh7LWO8gYaSPpRbKEX7YwCf8vWnJ0sJWXtFUfGpbPWr0ZImAj/kVVwwKLaK2kC05iJcMjicNVocuu/i/FvWFEhj95iXaBCjc3Bpqv9bWI/OFJaXFdertjVHQTMsg8R1aXYzeMKhMRXJdlCEsvAMz+gE3zxiRbs+qDBm9CEafowTMvHWxSLApllaLKQB/glboow5cGN6emhNnpd+BUPBCV5HwjTgJxhIUwaNthEGCv+p/uWlAGXp7vl8Ye64ENh/EH5A='
+  pool-size: 5
+
+sql:
+  show: false
+  format: false
+  ddl-auto: update
+
+spring:
+  jpa:
+    generate-ddl: true
+  redis:
+    host: redis.redis.svc.cluster.local
+    port: 6379
+
+service:
+  scheme: http
+  application:
+    host: attachment-be-stag.xquare-stag.svc.cluster.local
+  authority:
+    host: authority-be-stag.xquare-stag.svc.cluster.local
+  point:
+    host: point-be-stag.xquare-stag.svc.cluster.local
+  user:
+    host: user-be-stag.xquare-stag.svc.cluster.local
+  timetable:
+    host: timetable-be-stag.xquare-stag.svc.cluster.local/timetables
+  schedule:
+    host: schedule-be-stag.xquare-stag.svc.cluster.local
+  git:
+    host: git-be-stag.xquare-stag.svc.cluster.local
