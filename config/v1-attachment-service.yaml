@@ -12,20 +12,26 @@ s3:
 ---
 
 spring:
-  profiles: prod
+  config:
+    activate:
+      on-profile: prod
 s3:
   bucket: xquare-prod-bucket
 
 ---
 
 spring:
-  profiles: stag
+  config:
+    activate:
+      on-profile: stag
 s3:
   bucket: xquare-stag-bucket
 
 ---
 
 spring:
-  profiles: dev
+  config:
+    activate:
+      on-profile: dev
 s3:
   bucket: xquare-stag-bucket
