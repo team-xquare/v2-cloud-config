@@ -26,6 +26,8 @@ spring:
     highlightSql: ${sql.format}
     ddlAuto: ${sql.ddl-auto}
     poolSize: ${db.pool-size}
+  jackson:
+    property-naming-strategy: SNAKE_CASE
 
 # lagacy =============================================================
 # 실제로 사용되지 않거나 다른 서버와 다른 경로를 사용하는 레거시, 추후 삭제 혹은 수정 필요함
