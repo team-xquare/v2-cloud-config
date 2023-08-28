@@ -28,7 +28,7 @@ service:
   user:
     host: user-be-prod.xquare-prod.svc.cluster.local
   timetable:
-    host: timetable-be-prod.xquare-prod.svc.cluster.local
+    host: timetable-be-prod.xquare-prod.svc.cluster.local/timetables
   schedule:
     host: schedule-be-prod.xquare-prod.svc.cluster.local
   git:
