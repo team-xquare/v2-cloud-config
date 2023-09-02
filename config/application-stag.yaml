@@ -14,7 +14,7 @@ spring:
   jpa:
     generate-ddl: true
   redis:
-    host: redis.redis.svc.cluster.local
+    host: '{cipher}AQAuew2zJVUoEWY6YX57VcK0mHBuOHJTJhWKp1hmSAlRHVcxMJVK+xrB0dx/BEVeBufrIq2Pz9cVT1/gtPkaSPvMfjCvBU8XUb6IwXkRYzzCBDQTh3C4Y5W8iZOR7z5sQ46CvmHkHUT3hHznP5NsTLWtlSBNjV8rR0s+C1fp8BqtHo0ZDzmkUAVeHNluBxQK6/C+Ml8l9cB3bmDirxNSbYhBplpfH4r4K2PR6Y86F6IlLM3s8WboSu+3YaD7cT/AMCR2+/uETEQ9yrFmyKFFMbnfAZL1dmP4EhLk8TnowLwOK/IfeEw8xbVqv3GLFwktNQqt/nSsjNmxEWsdavAXEuVcMTczcmiOMWPZ/cui52Wze+zgKbgzL560ZD7W7Pna9cpRDdE83/61jga2Xgi8k2FzgZ8tveI1b/PLNgHivDuxa+k/zbI+OIxhMq+8MYANWi4='
     port: 6379
 
 service:
