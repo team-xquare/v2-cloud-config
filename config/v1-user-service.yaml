@@ -6,7 +6,7 @@ jwt:
   refreshTokenProperties:
     expirationAsHour: 120
   accessTokenProperties:
-    expirationAsHour: 720
+    expirationAsHour: 2
     
 security:
   value: '{cipher}AQAgnj2Igm/imdP98rs4nfYDfE8GPzep859OdIt3QbFyuMtVitq9IT6EZW83cvRi8GKOI4uZrHYEKvV5LkrLwsHROj4XPUt/v5QYB98FHuS8VTB7wDK+nKrT/FRgqDfCBoojIyDqQmwSZG1uObFD7UFfiFblovgxlRGxOmbRWCPb5DFs6TUSgGlz+tM99LxxH9SfDIVAoiY1jGQ49ukzuUveRRSP5q+Fnj9J+oXRpAhVJqhkl/I7lEibzTwOklyXiO2Ig6tggY1Rp5hgwXU6i6XfNCLE5yxqLyYi5D80iZBw4KiPdCm7u9EJZ0zkzNKMPRrgDSEk445esooWUgFE857sGhZFc14fo8EKkblblmrRiGVw+guAu4PRheigt6MIdYrKm8WkZlAsEuHsY5tSoWaz'
