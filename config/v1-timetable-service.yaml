@@ -8,3 +8,6 @@ neis:
   size: 1000
   region: G10
   school: 7430310
+
+subject:
+  image: https://xquare-prod-bucket.s3.ap-northeast-2.amazonaws.com/timetable-icon/%E1%84%8C%E1%85%A1%E1%84%8B%E1%85%B2%E1%86%AF.png # 과목 없을 때 기본 이미지
