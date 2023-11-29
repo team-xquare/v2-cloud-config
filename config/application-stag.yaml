@@ -28,7 +28,7 @@ service:
   user:
     host: user-be-stag.xquare-stag.svc.cluster.local
   timetable:
-    host: timetables-be-stag.xquare-stag.svc.cluster.local/timetables
+    host: timetable-be-stag.xquare-stag.svc.cluster.local/timetables
   schedule:
     host: schedule-be-stag.xquare-stag.svc.cluster.local
   git:
