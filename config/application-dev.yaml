@@ -16,3 +16,20 @@ spring:
   redis:
     host: localhost
     port: 6379
+
+service:
+  scheme: https
+  application:
+    host: prod-server.xquare.app
+  authority:
+    host: prod-server.xquare.app
+  point:
+    host: prod-server.xquare.app
+  user:
+    host: prod-server.xquare.app
+  timetable:
+    host: prod-server.xquare.app
+  schedule:
+    host: prod-server.xquare.app
+  git:
+    host: prod-server.xquare.app
